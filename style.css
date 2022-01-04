@@ -20,6 +20,7 @@ position: relative;
 }
 .main-content{
     margin-left: 80px;
+    width: 70%;
 }
 h1:first-child{
     padding-top: 50px;
@@ -38,7 +39,7 @@ h5{
 
 p{
 
-width: 80%;
+width: 100%;
 font-size: 18px;
 color: grey;
 
@@ -69,4 +70,54 @@ button {
     background-repeat: no-repeat;
     margin-top: 60px;
   background-position: right;
+  padding-bottom: 80px;
+}
+
+
+/* Experience Area CSS Start */
+.experience-area {
+    height: 600px;
+   background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-content{
+    
+    justify-content: center;
+    display: flex;
+    
+    margin-top: 40px;
+}
+.full-stack, .baby-dev{
+    width: 40%;
+    box-shadow: 5px 7px 40px grey;
+    margin: 0px 3%;
+    padding: 10px 0px 60px 15px;
+    text-align: left;
+}
+.full-stack{
+    border-image: linear-gradient(
+        180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.baby-dev{
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+.full-stack h4, .baby-dev h4{
+    margin-bottom: 20px;
+    color: orange;
+    font-size: 25px;
+}
+.full-stack h2, .baby-dev h2{
+    font-size: 35px;
+    padding: 40px 0px;
+}
+
+footer p {
+    text-align: center;
+    display: block;
 }
