@@ -1,4 +1,72 @@
-h1, h2{
-    color: red;
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Hero-section{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+position: relative;
+
+}
+.container{
+    display: flex;
+}
+.left-side{
+    width: 55%;
+   
+}
+.main-content{
+    margin-left: 80px;
+}
+h1:first-child{
+    padding-top: 50px;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+h1 span{
+    color: orange;
+}
+h5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+
+width: 80%;
+font-size: 18px;
+color: grey;
+
+}
+
+
+button {
+    border: none;
+    outline: none;
+    background: linear-gradient(
+        45deg, lightsalmon, tomato);
+    color: white;
+    font-size: 18px;
+    padding: 10px 31px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 16px;
+     cursor: pointer;
+}
+.right-side{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.Hero-section2{
+  margin-left: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+  background-position: right;
 }
